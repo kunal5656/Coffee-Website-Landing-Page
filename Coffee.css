@@ -1,0 +1,133 @@
+.maintext{
+    position: relative;
+    margin-left: 10vw;
+    margin-top: 15vh;
+    font-size: 03vw;
+}
+.mainsmall{
+    position: relative;
+    margin-left: 10vw;
+  
+}
+.mainsmall2{
+    position: relative;
+    margin-left: 10vw;
+
+}
+.mainsmall3{
+    position: relative;
+    margin-left: 09vw;
+    color: rgb(255, 168, 97);
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 28px;
+}
+.img2{
+    border-radius: 1500px;
+}
+.smallarea{
+    position: relative;
+    margin-left: 14vw;
+    margin-top: 80px;
+}
+.smallarea2{
+    position: relative;
+    margin-left: 10vw;
+    margin-top: 50px;
+}
+.block1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 500px;
+    padding: 10px;
+    width: auto;
+}
+.myhr1{
+    height: 02px;
+    margin-left:0px;
+}
+.myhr2{
+    height: 02px;
+    margin-left:0px;
+}
+.myhr3{
+    height: 02px;
+    margin-left:0px;
+}
+#ice:hover{
+    margin-bottom: 04vh;
+    transition: 0.3s ease;
+}
+#ice:not(hover){
+    margin-bottom: 00vh;
+    transition: 0.3s ease;
+}
+#donut:hover{
+    margin-bottom: 04vh;
+    transition: 0.3s ease;
+}
+#donut:not(hover){
+    margin-bottom: 00vh;
+    transition: 0.3s ease;
+}
+
+#pie:hover{
+    margin-bottom: 04vh;
+    transition: 0.3s ease;
+}
+#pie:not(hover){
+    margin-bottom: 00vh;
+    transition: 0.3s ease;
+}
+#navtitle:hover{
+    font-size: 24px;
+    transition: 0.5s ease;
+}
+#navtitle:not(hover){
+    font-size: 20px;
+    transition: 0.5s ease;
+}
+#cups:hover ~ .myhr1{
+    width: 100%;
+    transition: 0.7s ease;
+}
+#cups:not(hover) ~ .myhr1{
+    width: 30%;
+    transition: 0.7s ease;
+}
+#don:hover ~ .myhr2{
+    width: 100%;
+    transition: 0.7s ease;
+}
+#don:not(hover) ~ .myhr2{
+    width: 40%;
+    transition: 0.7s ease;
+}
+#coo:hover ~ .myhr3{
+    width: 100%;
+    transition: 0.7s ease;
+}
+#coo:not(hover) ~ .myhr3{
+    width: 50%;
+    transition: 0.7s ease;
+}
+#btn1:hover{
+    width: 40%;
+    height: 09%;
+    transition: 0.3s ease;
+}
+#btn1:not(hover){
+    width: 25%;
+    height: 08%;
+    transition: 0.3s ease;
+}
+.toogle{
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+}
+
+

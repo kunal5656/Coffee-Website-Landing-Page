@@ -1,0 +1,166 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+        <link rel="stylesheet" href="Coffee.css">
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    </head>
+    <body id="mybody" style="background-color: #ffde95;">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container">
+              <a class="navbar-brand" id="navtitle" href="#">Let's Buy a Coffee</a><i class="fas fa-mug-hot"></i>
+              <button class="navbar-toggler" type="button">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navcoll">
+                <ul class="navbar-nav ml-auto  mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link mx-5" style="color:#292928" href="#"> <b> Trending</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-5" style="color:#292928" href="#"> <b>Rewards</b> </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-5" style="color:#292928" href="#"> <b>Gift Cards</b> </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-5" style="color:#292928" href="#"><b>HOT!</b></a>
+                  </li>
+                  <li class="nav-item">
+                     <button class="btn mt-1" id="modebutton" style="border-radius: 22px;font-size: 12px;background-color: white;color: rgb(255,168,97);">Dark Mode</button>
+                  </li>
+                </ul>
+            
+              </div>
+            </div>
+          </nav>
+
+          <div class="row">
+            <div class="col-lg-4">
+                <h3 class="maintext font-weight-bolder">Midnight <br>Frappuccino</h3><br>
+                <p class="mainsmall">The Midnight Mint Mocha Frappuccino <br>features extra dark coco blended with <br>Frappuccino roasted Coffee.</p>
+           
+                <h4 class="mainsmall2">$8.50</h4>
+                <p class="bg-dark mainsmall3 mt-4" id="btn1">Buy Now</p>
+            </div>
+            <div class="col-lg-4 ">
+                <img src="Coffee .svg" class="mt-5 mb-5" >
+            </div>
+            <div class="col-lg-2" style="margin-left: 05vw;margin-top: 15vh;margin-right: 05vw;">
+                <div class="col-lg-6">
+                   <p><i class="fas-fa-mug-hot"></i></p> 
+                </div>
+                <h6 id="cups"><b>Cups</b> </h6>
+                <hr class="myhr1" style="background-color: rgb(63, 63, 63);">
+                <p id="1" style="font-size: 01vw;">have the new form <br> of ice Coffee</p>
+                <h6 id="don"><b>Donuts</b> </h6>
+                <hr class="myhr2" style="background-color: rgb(63, 63, 63);">
+                <p id="2" style="font-size: 01vw;">have the new form<br> of Donut with our Coffee</p>
+                <h6 id="coo"><b>Cookies</b> </h6>
+                <hr class="myhr3" style="background-color: rgb(63, 63, 63);">
+                <p id="3" style="font-size: 01vw;">Enjoy our one of the <br>finest Cookies</p>
+            </div>
+          </div>
+             
+          <div class="row">
+            <div class="col-lg-9 d-flex justify-content-center align-items-center" id="backdesign" style="width: 900px;height: 200px;margin-left: auto;margin-right: auto;border-radius: 500px;margin-top: 10vh;background-color: #292928;">
+
+          <div class="row  d-flex justify-content-center align-items-center" >
+            <div class="col-lg-9  d-flex justify-content-center align-items-center ">
+            </div>
+        </div>
+                <div class="col-lg-3">
+                    <img src="icecream.svg" id="ice" class="d-flex justify-content-center align-items-top p-3">
+                    <a href="#" id="aice" class="nav-link " style="text-align: center;padding-bottom: 12vh;color: #ffde95;font-weight: bold;">Ice Cream</a>
+            </div>
+            <div class="col-lg-3">
+                <img src="Donut.svg" id="donut" class="d-flex justify-content-center align-items-center p-3">
+                <a href="#" id="aDonuts" class="nav-link " style="text-align: center;padding-bottom: 12vh;color:#ffde95;font-weight: bold;">Donuts</a>
+        </div>
+        <div class="col-lg-3">
+            <img src="Pie.svg" id="pie" class="d-flex justify-content-center align-items-center p-3">
+            <a href="#" id="apie" class="nav-link " style="text-align: center;padding-bottom: 12vh;color: #ffde95;font-weight: bold;">Pie's</a>
+        </div>
+            </div>
+          </div>
+          
+
+
+
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    
+    </body>
+    <script>
+        $(document).ready(function()
+        {
+          var state=true;
+          $("#modebutton").click(function()
+          {
+              if(state)
+              {
+              $("#modebutton").animate({"background-color" : "#212020","color":"rgb(255, 168, 97)"},"slow");
+
+              $("body").animate({"background-color" : "#404040"},"3000");
+              $("a").animate({"color" : "white"},"3000");
+              $("i").animate({"color" : "white"},"3000");
+              $("h3").animate({"color" : "white"},"3000");
+              $(".mainsmall").animate({"color" : "rgb(255, 168, 97)"},"3000");
+              $("h4").animate({"color" : "rgb(255, 168, 97)"},"3000");
+              $("h6").animate({"color" : "rgb(255, 168, 97)"},"3000");
+              $("#1").animate({"color":"white"},"3000");
+              $("#2").animate({"color":"white"},"3000");
+              $("#3").animate({"color":"white"},"3000");
+              $(".myhr1").animate({"background-color":"rgb(255, 168, 97)"},"3000");
+              $(".myhr2").animate({"background-color":"rgb(255, 168, 97)"},"3000");
+              $(".myhr3").animate({"background-color":"rgb(255, 168, 97)"},"3000");
+              $("#backdesign").animate({"background-color": "#ffde95"},"slow");
+              $("#aice").animate({"color": "#292928"},"slow");
+              $("#aDonuts").animate({"color": "#292928"},"slow");
+              $("#apie").animate({"color": "#292928"},"slow");
+              }
+              else{
+                $("#modebutton").animate({"background-color" : "white","color":"rgb(255,168,97)"},"slow");
+
+                $("body").animate({"background-color" : "#ffde95"},"3000");
+                $("a").animate({"color" : "black"},"3000");
+                $("i").animate({"color" : "black"},"3000");
+                $("h3").animate({"color" : "black"},"3000");
+                $(".mainsmall").animate({"color" : "black"},"3000");
+                $("h4").animate({"color" : "black"},"3000");
+                $("h6").animate({"color" : "black"},"3000");
+                $("#1").animate({"color":"black"},"3000");
+                $("#2").animate({"color":"black"},"3000");
+                $("#3").animate({"color":"black"},"3000");
+                $(".myhr1").animate({"background-color":"rgb(63, 63, 63)"},"3000");
+                $(".myhr2").animate({"background-color":"rgb(63, 63, 63)"},"3000");
+                $(".myhr3").animate({"background-color":"rgb(63, 63, 63)"},"3000");
+                $("#backdesign").animate({"background-color": "#292928"},"slow");
+                $("#aice").animate({"color": "#ffde95"},"slow");
+                $("#aDonuts").animate({"color": "#ffde95"},"slow");
+                $("#apie").animate({"color": "#ffde95"},"slow");
+              }
+              state = !state;
+          }
+          
+          );
+
+        }
+        );
+    </script>
+</html>
