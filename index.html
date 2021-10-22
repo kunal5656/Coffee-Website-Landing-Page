@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -8,15 +9,16 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body id="mybody" style="background-color: #ffde95;">
         <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container">
               <a class="navbar-brand" id="navtitle" href="#">Let's Buy a Coffee</a><i class="fas fa-mug-hot"></i>
-              <button class="navbar-toggler" type="button">
+              <button class="navbar-toggler" type="button" id="navbtn">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navcoll">
+              <div class="collapse navbar-collapse text-center" id="navcoll">
                 <ul class="navbar-nav ml-auto  mb-2 mb-lg-0">
                   <li class="nav-item">
                     <a class="nav-link mx-5" style="color:#292928" href="#"> <b> Trending</b></a>
@@ -45,7 +47,7 @@
                 <p class="mainsmall">The Midnight Mint Mocha Frappuccino <br>features extra dark coco blended with <br>Frappuccino roasted Coffee.</p>
            
                 <h4 class="mainsmall2">$8.50</h4>
-                <p class="bg-dark mainsmall3 mt-4" id="btn1">Buy Now</p>
+                <p class="mainsmall3 mt-4 btn btn-dark" id="btn1">Buy Now</p>
             </div>
             <div class="col-lg-4 ">
                 <img src="Coffee .svg" class="mt-5 mb-5" >
@@ -56,18 +58,20 @@
                 </div>
                 <h6 id="cups"><b>Cups</b> </h6>
                 <hr class="myhr1" style="background-color: rgb(63, 63, 63);">
-                <p id="1" style="font-size: 01vw;">have the new form <br> of ice Coffee</p>
+                <p id="1" style="font-size: 14px;">have the new form <br> of ice Coffee</p>
                 <h6 id="don"><b>Donuts</b> </h6>
                 <hr class="myhr2" style="background-color: rgb(63, 63, 63);">
-                <p id="2" style="font-size: 01vw;">have the new form<br> of Donut with our Coffee</p>
+                <p id="2" style="font-size: 14px;">have the new form<br> of Donut with our Coffee</p>
                 <h6 id="coo"><b>Cookies</b> </h6>
                 <hr class="myhr3" style="background-color: rgb(63, 63, 63);">
-                <p id="3" style="font-size: 01vw;">Enjoy our one of the <br>finest Cookies</p>
+                <p id="3" style="font-size: 14px;">Enjoy our one of the <br>finest Cookies</p>
             </div>
           </div>
-             
-          <div class="row">
-            <div class="col-lg-9 d-flex justify-content-center align-items-center" id="backdesign" style="width: 900px;height: 200px;margin-left: auto;margin-right: auto;border-radius: 500px;margin-top: 10vh;background-color: #292928;">
+             <div class=" container  text-center m-auto p-auto">
+
+            
+         <div class="row">
+            <div class="col-lg-9 d-flex justify-content-center align-items-center rounded-pill" id="backdesign" style="width: 900px;height: 200px;margin-left: auto;margin-right: auto;margin-top: 10vh;background-color: #292928;">
 
           <div class="row  d-flex justify-content-center align-items-center" >
             <div class="col-lg-9  d-flex justify-content-center align-items-center ">
@@ -87,7 +91,7 @@
         </div>
             </div>
           </div>
-          
+        </div>
 
 
 
@@ -109,6 +113,11 @@
     <script>
         $(document).ready(function()
         {
+          $("#navbtn").click(function()
+          {
+            $("#navcoll").slideToggle("slow");
+          }
+          );
           var state=true;
           $("#modebutton").click(function()
           {

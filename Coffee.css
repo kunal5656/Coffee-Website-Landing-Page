@@ -2,7 +2,7 @@
     position: relative;
     margin-left: 10vw;
     margin-top: 15vh;
-    font-size: 03vw;
+    font-size: 30px;
 }
 .mainsmall{
     position: relative;
@@ -18,7 +18,7 @@
     position: relative;
     margin-left: 09vw;
     color: rgb(255, 168, 97);
-    padding: 10px;
+
     text-align: center;
     font-size: 12px;
     border-radius: 28px;
